@@ -1,0 +1,5 @@
+<div class="container">
+  <app-blog-list-item *ngFor="let blog of blogs" [blog]="blog" [user]="currentUser" [users]="users" [editable]="true"
+                      (blogToBeEdited)="editBlog($event)" (blogToBeDeleted)="deleteBlog($event)"></app-blog-list-item>
+  <a class="btn-floating btn-large waves-effect waves-light red right" href="/addblog"><i class="material-icons">add</i></a>
+</div>

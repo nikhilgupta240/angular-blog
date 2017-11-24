@@ -1,0 +1,84 @@
+{
+  "blogs": [
+    {
+      "id": 2,
+      "author_id": 1,
+      "category": "Automotive",
+      "content": "Awsome car",
+      "date": "Tue Nov 21 2017 11:00:47 GMT+0530 (India Standard Time)",
+      "logo": "directions_car",
+      "title": "xc90"
+    },
+    {
+      "id": 3,
+      "author_id": 2,
+      "category": "Automotive",
+      "content": "A long drive in kuv100 @ 160kmph",
+      "date": "Mon Nov 20 2017 12:54:38 GMT+0530 (India Standard Time)",
+      "logo": "directions_car",
+      "title": "DriveThru"
+    },
+    {
+      "id": 4,
+      "author_id": 3,
+      "category": "Management",
+      "content": "Eye liner is good",
+      "date": "Mon Nov 20 2017 15:51:56 GMT+0530 (India Standard Time)",
+      "logo": "Management",
+      "title": "Cosmetics"
+    }
+  ],
+  "categories": [
+    "Automotive",
+    "Electronics",
+    "Management",
+    "Medical",
+    "Sports",
+    "Technology"
+  ],
+  "logos": {
+    "Automotive": "directions_car",
+    "Electronics": "devices_other",
+    "Management": "Management",
+    "Medical": "Medical",
+    "Sports": "Sports",
+    "Technology": "Technology"
+  },
+  "users": [
+    {
+      "id": 1,
+      "username": "nikhil",
+      "password": "1234",
+      "favourites": [
+        1,
+        3,
+        2
+      ]
+    },
+    {
+      "id": 2,
+      "username": "rhythm",
+      "password": "5678",
+      "favourites": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 3,
+      "username": "bharti",
+      "password": "1357",
+      "favourites": [
+        3
+      ]
+    },
+    {
+      "id": 4,
+      "username": "divakar",
+      "password": "2468",
+      "favourites": [
+        1
+      ]
+    }
+  ]
+}
